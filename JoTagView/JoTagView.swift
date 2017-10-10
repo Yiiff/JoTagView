@@ -20,53 +20,18 @@ class JoTagView: UIView {
     private var btnDataSource = [UIButton]()
     
     //* Tag Height */
-    public var tagHeight: Int {
-        get {
-            return 40
-        }
-        set {
-            self.tagHeight = newValue
-        }
-    }
+    public var tagHeight = 40
     
     //* Tag Top Margin */
-    public var topMargin: Int {
-        get {
-            return 8
-        }
-        set {
-            self.topMargin = newValue
-        }
-    }
+    public var topMargin = 8
     
     //* Tag Bottom Margin */
-    public var bottomMargin: Int {
-        get {
-            return 8
-        }
-        set {
-            self.bottomMargin = newValue
-        }
-    }
+    public var bottomMargin = 8
     
     //* Number Of Row In A Line */
-    public var numberOfRow: Int {
-        get {
-            return 3
-        }
-        set {
-            self.numberOfRow = newValue
-        }
-    }
+    public var numberOfRow = 3
     
-    public var leftMargin: Int {
-        get {
-            return 8
-        }
-        set {
-            self.leftMargin = newValue
-        }
-    }
+    public var leftMargin = 8
     
     private var bottomMarginWithRowHeight: Int {
         get {

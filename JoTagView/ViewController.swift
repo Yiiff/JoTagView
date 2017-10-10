@@ -19,8 +19,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // height value
+        // height value is not matter, you can input any value
         tagView = JoTagView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 0))
+        
+        tagView?.numberOfRow = 2
         
         tagView?.isTagCanTouch = true
         
@@ -66,6 +68,5 @@ extension ViewController: JoTagViewDelegate {
     func didSelectTag(sender: UIButton, index: Int) {
         titleLab.text = "Select Tag: " + (sender.currentTitle ?? "No Data")
     }
-    
 }
 
