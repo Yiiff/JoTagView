@@ -4,7 +4,7 @@
 
 **Gif Demo:**
 
-![](https://github.com/ZX-ZhouXiao/MarkDown-Photos/blob/master/JoTagView.gif)
+![Demo](https://github.com/ZX-ZhouXiao/MarkDown-Photos/blob/master/JoTagView.gif)
 
 
 ### Feature
